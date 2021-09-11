@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Launch</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div id="slider">
+            <img id="slider-img" src="./assets/img/slider/slider1.jpg" alt="" width="100%">
+        </div>
+        <button id="slider-next" class="p-8-16 bg-black radius hover-gray" onclick="next()">
+            Take Tour <i class="fa fa-angle-right"></i>
+        </button>
+
+        <div class="slider-text bg-black p-32 radius text-center hover-1">
+            <h3>Take photos with our app</h3>
+            <p>
+                <hr style="width:390px; border:1px solid #eee;" class="">
+            </p>
+            <p>
+                Super simple installment: free of charge
+            </p>
+            <button class="p-8-16 bg-green radius hover-gray col-1" id="slider-button" onclick="show()">
+                Download 
+                <i class="fa fa-android"></i>
+                <i class="fa fa-apple"></i>
+                <i class="fa fa-windows"></i>
+            </button>
+
+        </div>
+
+    </header>
+    <main>
+        <section id="content-1">
+            <div class="content-text col-2-3">
+                <h1 class="fs-64">
+                    <b>The App</b>
+                </h1>
+                <h1 class="fs-48 text-green">
+                    <b>Why buy it?</b>
+                </h1>
+                <p>
+                    <span class="fs-24">Take photos like a pro.</span> You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+                <p>
+                    <button class="p-8-16 hover-gray" onclick="show()">
+                        <i class="fa fa-download"></i>
+                        Download application
+                    </button>
+                </p>
+                <p>
+                    Available for
+                    <i class="fa fa-android text-green"></i>
+                    <i class="fa fa-apple"></i>
+                    <i class="fa fa-windows text-blue"></i>
+                </p>
+            </div>
+            <div class="content-img col-3">
+                <img src="./assets/img/content-img/img1.jpg" alt="content-img1" style="float: right;">
+            </div>
+        </section>
+        <section id="content-2" class="bg-gray">
+            <div class="content-img col-3">
+                <img src="./assets/img/content-img/img2.jpg" alt="">
+            </div>
+            <div class="content-text col-2-3">
+                <h1 class="fs-64">
+                    <b>Clarity</b>
+                </h1>
+                <h1 class="fs-48 text-red">
+                    <b>Pixels, who?</b>
+                </h1>
+                <p>
+                    <span class="fs-24">A revolution in resolution.</span> Sharp and clear photos with the world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+        </section>
+
+        <section id="content-3" class="bg-gray-bold text-center">
+            <div class="content-heading text-white">
+                <h1 class="fs-64">
+                    <b>Features</b>
+                </h1>
+                <p>This app is just so lorem ipsum.</p>
+            </div>
+            <div class="content-body" style="margin-top: 64px;">
+                <div class="col-4">
+                    <div class="icon">
+                        <i class="fa fa-bolt fs-64 text-yellow"></i>
+                        <p>Fast</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-diamond fs-64 text-white"></i>
+                        <p>Sharp</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-user fs-64 text-red"></i>
+                        <p>Safe</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="icon">
+                        <i class="fa fa-heart fs-64 text-red"></i>
+                        <p>Love</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-cloud fs-64 text-blue"></i>
+                        <p>Cloud</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-shield fs-64 text-yellow"></i>
+                        <p>Stabile</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="icon">
+                        <i class="fa fa-camera fs-64 text-yellow"></i>
+                        <p>Clarity</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-globe fs-64 text-green"></i>
+                        <p>Global</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-wifi fs-64 text-gray"></i>
+                        <p>Connected</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="icon">
+                        <i class="fa fa-battery-full fs-64 text-green"></i>
+                        <p>Power</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-hdd-o fs-64 text-blue"></i>
+                        <p>Storate</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-image fs-64 text-pink"></i>
+                        <p>HD</p>
+                    </div>
+                </div>
+        </section>
+        <section id="content-4" class="text-center">
+            <div class="content-heading">
+                <h1 class="fs-64">
+                    <b>Features</b>
+                </h1>
+                <p>This app is just so lorem ipsum.</p>
+            </div>
+            <div class="content-body" style="margin-top: 64px;">
+                <div class="col-2">
+                    <ul class="col-1">
+                        <li class="bg-gray-bold p-32 fs-24">Basic</li>
+                        <li>
+                            <b>250</b> Photos
+                        </li>
+                        <li>
+                            <b>10</b> Features
+                        </li>
+                        <li>
+                            <b>No</b> Ads
+                        </li>
+                        <li>
+                            <b>Office hours</b> Support
+                        </li>
+                        <li>
+                            <i class="text-gray fs-24">$ 25</i>
+                        </li>
+                        <li>
+                            <button class="bg-black p-16-32 hover-gray" onclick="show()">
+                                <i class="fa fa-download"></i> Download
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul class="col-1">
+                        <li class="bg-red p-32 fs-24">Premium</li>
+                        <li>
+                            <b>1000</b> Photos
+                        </li>
+                        <li>
+                            <b>50</b> Features
+                        </li>
+                        <li>
+                            <b>No</b> Ads
+                        </li>
+                        <li>
+                            <b>Endless</b> Support
+                        </li>
+                        <li>
+                            <i class="text-gray fs-24">$ 99</i>
+                        </li>
+                        <li>
+                            <button class="bg-black p-16-32 hover-gray" onclick="show()">
+                                <i class="fa fa-download"></i> Download
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="text-center bg-gray p-32">
+            <p>
+                <a href=" "><i class="fa fa-2x fa-facebook-official  hover-gray text-black "></i> </a>
+                <a href=" "><i class="fa fa-2x fa-instagram  hover-gray text-black "></i> </a>
+                <a href=" "><i class="fa fa-2x fa-snapchat  hover-gray text-black "></i> </a>
+                <a href=" "><i class="fa fa-2x fa-pinterest  hover-gray text-black "></i> </a>
+                <a href=" "><i class="fa fa-2x fa-twitter  hover-gray text-black "></i > </a>
+                <a href=" "><i class="fa fa-2x fa-linkedin  hover-gray text-black "></i> </a>
+            </p>
+            <p>
+                <b>Powered by</b>
+                <a href="" class="text-black hover-gray">
+                    <i>@huynhquoc</i>
+                </a>
+            </p>
+
+        </footer>
+    </main>
+    <div id="download-container">
+        <div id="download" class="p-32">
+            <h1 style="display: inline-block;">DOWNLOAD</h1>
+            <i class="fa fa-close fs-24 p-8-16 hover-gray" style="float: right;" onclick="hide()"></i>
+            <p>Download the app in AppStore, Google Play or Microsoft Store.</p>
+            <p>
+                <i class="fa fa-android text-green"></i>
+                <i class="fa fa-apple"></i>
+                <i class="fa fa-windows text-blue"></i>
+            </p>
+            <p>
+                <input class="col-1 p-16" type="text" placeholder="Enter e-mail"></input>
+            </p>
+            <p>
+                <button class="col-1 p-16 bg-red hover-gray" onclick="hide()">Fake Download</button>
+            </p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var images = [
+            "./assets/img/slider/slider1.jpg",
+            "./assets/img/slider/slider2.jpg",
+            "./assets/img/slider/slider3.jpg",
+        ];
+        var num = 0;
+
+        function next() {
+            var slider = document.getElementById("slider-img");
+            num++;
+            if (num >= images.length) {
+                num = 0;
+            }
+            slider.src = images[num];
+        }
+
+        var download = document.getElementById('download-container');
+
+        function show() {
+            download.style.display = "block";
+        }
+
+        function hide() {
+            download.style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>
